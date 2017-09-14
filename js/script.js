@@ -53,6 +53,7 @@ form.addEventListener('submit', function(event) {
   }
   else {
     localStorage.setItem('login', login.value);
+    form.submit();
   }
 });
 
